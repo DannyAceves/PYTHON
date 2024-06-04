@@ -12,11 +12,11 @@ def add_contact():
 
 @app.route('/edit contact')
 def edit_contact():
-    return 'editar contacto'
+    return 'editar contacto2'
 
 @app.route('/delete contact')
 def delete_contact():
     return 'borrar contacto'
 
 if __name__ == '_main_':
-    app.run(port = 3000, debug = True);
+    app.run(port = 3000, debug = True)
